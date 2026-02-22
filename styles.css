@@ -135,7 +135,7 @@ body {
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
-  justify-content: flex-start;
+  justify-content: center;
   -webkit-overflow-scrolling: touch;
 }
 
