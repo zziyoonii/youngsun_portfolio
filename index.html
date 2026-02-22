@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>황영선 | 배우 포트폴리오</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <nav class="tabs" role="tablist">
+        <button class="tab active" data-tab="profile" role="tab" aria-selected="true">프로필</button>
+        <button class="tab" data-tab="video" role="tab" aria-selected="false">영상</button>
+        <button class="tab" data-tab="photos" role="tab" aria-selected="false">사진</button>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="video" class="tab-content" role="tabpanel">
+        <div class="video-section">
+          <div class="video-player" id="video-player"></div>
+          <div class="video-gallery">
+            <div class="video-thumb" data-src="https://www.youtube.com/watch?v=gLXxEryUKNc">
+              <img src="https://img.youtube.com/vi/gLXxEryUKNc/mqdefault.jpg" alt="영상 1">
+              <span class="play-icon">▶</span>
+            </div>
+            <div class="video-thumb" data-src="https://www.youtube.com/watch?v=a9jnCCj86GU">
+              <img src="https://img.youtube.com/vi/a9jnCCj86GU/mqdefault.jpg" alt="영상 2">
+              <span class="play-icon">▶</span>
+            </div>
+            <div class="video-thumb" data-src="assets/video/portfolio.mp4">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='90'%3E%3Crect fill='%23333' width='160' height='90'/%3E%3C/svg%3E" alt="영상 3">
+              <span class="play-icon">▶</span>
+            </div>
+            <!-- 추가 영상: data-src에 YouTube/Drive/mp4 링크, img src에 썸네일 (YouTube: https://img.youtube.com/vi/VIDEO_ID/mqdefault.jpg) -->
+          </div>
+        </div>
+      </section>
+
+      <section id="photos" class="tab-content" role="tabpanel">
+        <div class="photo-section">
+          <div class="photo-preview" id="photo-preview">
+            <img src="assets/images/photo/KakaoTalk_20250710_225015278.png" alt="포트폴리오 메인">
+          </div>
+          <div class="photo-gallery">
+            <div class="photo-thumb active" data-src="assets/images/photo/KakaoTalk_20250710_225015278.png">
+              <img src="assets/images/photo/KakaoTalk_20250710_225015278.png" alt="포트폴리오 메인">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/KakaoTalk_20250710_225936358.jpg">
+              <img src="assets/images/photo/KakaoTalk_20250710_225936358.jpg" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/KakaoTalk_20250710_230136144.jpg">
+              <img src="assets/images/photo/KakaoTalk_20250710_230136144.jpg" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/KakaoTalk_20250710_231127859.jpg">
+              <img src="assets/images/photo/KakaoTalk_20250710_231127859.jpg" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC07925.JPG">
+              <img src="assets/images/photo/DSC07925.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC07929.JPG">
+              <img src="assets/images/photo/DSC07929.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC07937.JPG">
+              <img src="assets/images/photo/DSC07937.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC07963.JPG">
+              <img src="assets/images/photo/DSC07963.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08193.JPG">
+              <img src="assets/images/photo/DSC08193.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08201.JPG">
+              <img src="assets/images/photo/DSC08201.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08203.JPG">
+              <img src="assets/images/photo/DSC08203.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08214.JPG">
+              <img src="assets/images/photo/DSC08214.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08232.JPG">
+              <img src="assets/images/photo/DSC08232.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08272.JPG">
+              <img src="assets/images/photo/DSC08272.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08286.JPG">
+              <img src="assets/images/photo/DSC08286.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08374.JPG">
+              <img src="assets/images/photo/DSC08374.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08375.JPG">
+              <img src="assets/images/photo/DSC08375.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08381.JPG">
+              <img src="assets/images/photo/DSC08381.JPG" alt="포트폴리오 사진">
+            </div>
+            <div class="photo-thumb" data-src="assets/images/photo/DSC08503.JPG">
+              <img src="assets/images/photo/DSC08503.JPG" alt="포트폴리오 사진">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="profile" class="tab-content active" role="tabpanel">
+        <div class="profile-section">
+          <div class="profile-images">
+            <div class="profile-preview" id="profile-preview">
+              <img src="assets/images/profile/DSC07969.JPG" alt="황영선 프로필">
+            </div>
+            <div class="profile-photo-thumbs">
+              <div class="profile-thumb active" data-src="assets/images/profile/DSC07969.JPG">
+                <img src="assets/images/profile/DSC07969.JPG" alt="프로필 1">
+              </div>
+              <div class="profile-thumb" data-src="assets/images/profile/DSC08083.JPG">
+                <img src="assets/images/profile/DSC08083.JPG" alt="프로필 2">
+              </div>
+              <div class="profile-thumb" data-src="assets/images/profile/DSC08109.JPG">
+                <img src="assets/images/profile/DSC08109.JPG" alt="프로필 3">
+              </div>
+            </div>
+          </div>
+          <div class="profile-info">
+            <h4>이름</h4>
+            <p class="profile-name">황영선</p>
+            <h4>연락처</h4>
+            <p>010-2741-1662</p>
+            <h4>이메일</h4>
+            <p>youngsun8540@naver.com</p>
+            <h4>학력</h4>
+            <p>서울 문화 예술 대학교 연극영화과 졸업 (학사)</p>
+            <h4>출생월일</h4>
+            <p>1965년 4월 8일</p>
+            <h4>키/몸무게</h4>
+            <p>153cm / 49kg</p>
+            <h4>특기</h4>
+            <p>한국무용</p>
+            <h4>취미</h4>
+            <p>요가</p>
+            <h4>출연작</h4>
+            <p class="work-category">영화</p>
+            <p>이 꽃은, 내일 없습니다. (선옥 역)<br>나의 삐에로를 너에게 보내 줄게 (엄마 역)</p>
+            <p class="work-category">연극</p>
+            <p>집의 생존자들 (정금 역)<br>12인의 성난 사람들 (9번 배심원 역)<br>불안 속의 운동 (여인 역)</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span class="name">황영선</span>
+      <span class="divider">|</span>
+      <a href="tel:010-2741-1662" class="link">010-2741-1662</a>
+      <span class="divider">|</span>
+      <a href="mailto:youngsun8540@naver.com" class="link">youngsun8540@naver.com</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
